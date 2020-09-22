@@ -35,5 +35,4 @@ else:
           'in this calculator: '
           '"+" (addition), "-" (subtraction), '
           '"*" (multiplication), "/" (division),'
-          '"%" (modulus),"**" or "^" (exponentiation),'
-          '"//" (floor division).')
+          '"%" (modulus),"**" or "^" (exponentiation), "//" (floor division).')
