@@ -1,3 +1,4 @@
+# This is temperature converter script for conflict
 # Hello message, short instructions
 message = 'Hello! This is a temperature unit converter.\n' \
           'It supports Celsius (C), Fahrenheit (F), ' \
