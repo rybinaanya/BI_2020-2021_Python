@@ -1,4 +1,5 @@
-####### Simple calculator performs one of the following operations with two entered numbers:
+# Simple calculator performs one of the following operations
+# with two entered numbers:
 # addition: +
 # subtraction: -
 # multiplication: *
@@ -6,13 +7,14 @@
 # modulus: %
 # exponentiation: ** or ^
 # floor division: //
-####### The code:
+# The code:
 # Enter 2 numbers and an operator
 Number1 = float(input('Enter the first number: '))
 Operator = input('Enter the operator: ')
 Number2 = float(input('Enter the second number: '))
 
-# Perform operation corresponding to the entered operator symbol
+# Perform operation corresponding to the entered
+# operator symbol:
 if Operator == '*':
     print(Number1 * Number2)
 elif Operator == '/':
@@ -28,7 +30,10 @@ elif Operator == '//':
 elif Operator == '**' or Operator == '^':
     print(Number1 ** Number2)
 else:
-    print(f'Error: operator "{Operator}" not found.',
-          f'Only the following operators can be used in this calculator:\n',
-          f'"+" (addition), "-" (subtraction), "*" (multiplication), "/" (division),\n',
-          f'"%" (modulus),"**" or "^" (exponentiation),"//" (floor division).')
+    print('Error: operator "{Operator}" not found. '
+          'Only the following operators can be used '
+          'in this calculator: '
+          '"+" (addition), "-" (subtraction), '
+          '"*" (multiplication), "/" (division),'
+          '"%" (modulus),"**" or "^" (exponentiation),'
+          '"//" (floor division).')
