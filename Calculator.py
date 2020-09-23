@@ -34,5 +34,5 @@ else:
           'Only the following operators can be used '
           'in this calculator: '
           '"+" (addition), "-" (subtraction), '
-          '"*" (multiplication), "/" (division),'
-          '"%" (modulus),"**" or "^" (exponentiation), "//" (floor division).')
+          '"*" (multiplication), "/" (division), "%" (modulus),'
+          '"**" or "^" (exponentiation), "//" (floor division).')
